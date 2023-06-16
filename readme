@@ -1,0 +1,17 @@
+Instrucciones para correr la aplicación:
+
+*Crear dos terminales distintas, una para el back y otra para el front.
+
+En la del back haremos /cd backend\node. En la misma ejecutaremos el comando nodemon run.
+Una vez listo se habrá conectado a la base de datos.
+
+En la del front haremos /cd fronted\reactfront. Luego ejuctamos el comando npm start. 
+Con el mismo iniciará react.
+
+
+En el proyecto se usó una base de datos relacional MySQL con ORM Sequelize a través de xampp control panel, (phpmyadmin). 
+El script de la misma se encuentra en esta carpeta.
+
+Dependencias a instalar en node: npm init -y, npm i cors express mysql2 sequelize
+
+En react: despues de crear la app con npx create-react-app ya tenemos todo lo necesario para ejecutarlo.
